@@ -1,0 +1,6 @@
+123121,Ford,Escort,ZAQ1-2WSX,1.8,1999,false,NULL
+2,Łada,Niwa,ARD-332,1.25,1921,true,Jan Kowalski
+123121,Ford,Escort,ZAQ1-2WSX,1.8,1999,false,NULL
+2,Łada,Niwa,ARD-332,1.25,1921,true,Jan Kowalski
+123121,Ford,Escort,ZAQ1-2WSX,1.8,1999,false,NULL
+2,Łada,Niwa,ARD-332,1.25,1921,true,Jan Kowalski
