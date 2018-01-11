@@ -47,7 +47,7 @@ public class AverageDeviation {
         System.out.print("The average is ");
         System.out.println(Average(aNumbers));
         System.out.print("The deviation is ");
-        System.out.print(Deviation(aNumbers));
+        System.out.println(Deviation(aNumbers));
 
         
     }
@@ -62,22 +62,22 @@ public class AverageDeviation {
             sum += i;
         }
         
-        fract = 1 / numbers.size();
+        fract = 1.0 / (double)numbers.size();
         
-        return fract * sum;
+        return fract * (double)sum;
     }
     
     public static double Deviation(ArrayList<Integer> numbers)
     {
         double sum = 0.0;
-        double fract = 0.0;
+        double fract;
         
         for (int i : numbers)
         {
             sum += Math.pow((double)i - Average(numbers), 2);
         }
         
-        fract = 1 / (numbers.size() - 1);
+        fract = 1.0 / (double)(numbers.size() - 1);
         
         return Math.sqrt(fract * sum);
     }
